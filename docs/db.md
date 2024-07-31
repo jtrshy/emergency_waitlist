@@ -10,21 +10,21 @@ Patients:
 ID (Integer)
 Name (String)
 Code (String)
-Severity of Injuries (Integer)
-Time in Queue (DateTime)
-Approximate Wait Time (Integer)
+Severity_of_injury (Integer)
+Time_in_queue (DateTime)
+Wait_time (Integer)
 
 Staff:
 ID (Integer)
 Name (String)
 Role (String)
-Contact Information (String)
+Contact_info (String)
 
 Triage Logs:
 ID (Integer)
-Patient ID (Integer, Foreign Key)
-Staff ID (Integer, Foreign Key)
-Log Time (DateTime)
+Patient_ID (Integer, Foreign Key)
+Staff_ID (Integer, Foreign Key)
+Log_time (DateTime)
 Notes (String)
 
 ![Database Schema](/docs/schema.png) 
