@@ -26,3 +26,5 @@ Patient ID (Integer, Foreign Key)
 Staff ID (Integer, Foreign Key)
 Log Time (DateTime)
 Notes (String)
+
+![Database Schema](/docs/schema.png) 
